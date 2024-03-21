@@ -1,4 +1,4 @@
-#include<iostream>
+﻿#include<iostream>
 using namespace std;
 //#define MAX_COL 100
 //#define MAX_ROW 50
@@ -29,7 +29,7 @@ bool isMax(int x) {
 //		cout << endl;
 //}
 
-int main(){
+int main2(){
 	/*int array[3][4];
 	for (int i = 0; i < 3; i++) {
 		for (int j = 0; j < 4; j++) {
@@ -75,6 +75,7 @@ int main(){
 	const int MAX_COL = 15;
 	int array[MAX_ROW][MAX_COL];
 	int row = 0 , col = 0, chon, sum = 0, max, min, max_row, max_col, min_row, min_col , x;
+	int count = 0;
 	bool flag = true;
 
 	do {
@@ -84,10 +85,10 @@ int main(){
 		cout << "4.Tinh tong\n";
 		cout << "5.Tinh tong so hang\n";
 		cout << "6.Tinh tong so cot\n";
-		cout << "7.Gia tri lon nhat va nho nhat\n";
+		cout << "7.Gia tri lon nhat va nho nhat voi vi tri cua no\n";
 		cout << "8.Nhap gia tri x bat ky de tim trong mang\n";
 		cout << "9.Thoat\n";
-		cout << "Chon tu 1 - 6: ";
+		cout << "Chon tu 1 - 9: ";
 		cin >> chon;
 		system("cls");
 		switch (chon)
@@ -142,20 +143,22 @@ int main(){
 		case 5:
 			cout << "Nhap hang can tinh: ";
 			cin >> row;
-			for (int i = 0; i < col; i++) {
+			for (int i = 0; i < row; i++) {
 				sum += array[row][i];
 			}
 			cout << "Tong so hang: " << sum << endl;
+			return sum;
 			break;
 
 
 		case 6:
 			cout << "Nhap cot can tinh: ";
 			cin >> col;
-			for (int i = 0; i < row; i++) {
+			for (int i = 0; i < col; i++) {
 				sum += array[i][col];
 			}
 			cout << "Tong so cot: " << sum << endl;
+			return sum;
 			break;
 		case 7:
 			for (int i = 0; i < row; i++) {
@@ -170,21 +173,37 @@ int main(){
 			}
 			cout << "Gia tri lon nhat trong mang: " << max << " o hang thu " << max_row << " va cot thu " << max_col << endl;
 			cout << "Gia tri nho nhat trong mang: " << min << " o hang thu " << min_row << " va cot thu " << min_col << endl;
+			break;
+
 
 		case 8:
 			cout << "Nhap gia tri x: ";
 			cin >> x;
 			for (int i = 0; i < row; i++) {
 				for (int j = 0; j < col; j++) {
-					if()
+					if (array[i][j] == x) {
+						cout << x << " ";
+						count++;
+					}
 				}
 			}
+
+			if (count > 0) {
+				cout << "\nGia tri " << x <<" xuat hien " << count << " lan trong ma tran\n";
+			}
+			else {
+				cout << "Gia tri " << x << " khong xuat hiện trong ma tran\n";
+			}
+
 			break;
+
+
 
 		default:
 			break;
 		}
-	} while (chon != 6);
+	} while (chon != 9);
+
 	system("pause");
 	return 0;
 
