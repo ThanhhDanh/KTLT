@@ -10,12 +10,12 @@ using namespace std;
 
 
 int main() {
-	int x = 80, y = 30;
+	/*int x = 80, y = 30;
 	int* p;
 	p = &x;
 	const int ARRAY = ARRAY_MAX;
 	int array[ARRAY];
-	int n = ARRAY;
+	int n = ARRAY;*/
 
 
 	cout<<"--------------------Sap xep---------------------------\n";
@@ -146,14 +146,25 @@ int main() {
 
 
 	cout << "--------------------Bài 8---------------------------\n";
-	int** arr, r, c;
+	/*int h;
+	do {
+		cout << "Nhap chieu cao cua tam giac Pascal: "; cin >> h;
+		if (h <= 0) {
+			cout << "Vui long nhap lai!!!";
+		}
+		cout << "Tam giac Pascal co chieu cao la " << h << endl;
+		tamgiacPascal(h);
+	} while (h <= 0);*/
+	cout << "--------------------Bài 9---------------------------\n";
+	/*int** arr, r, c,x;
 	nhapMang2(arr, r, c);
 	xuatMang2(arr, r, c);
+	calcTotal(arr, r, c);*/
 
-	for (int i = 0; i < r; i++) {
-		delete[]arr[i];
-	}
-	delete[]arr;
+	cout << "--------------------Bài 10---------------------------\n";
+
+
+
 
 
 	system("pause");

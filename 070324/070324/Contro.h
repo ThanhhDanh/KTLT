@@ -38,8 +38,8 @@ void calcFibonacci() {
 
 	int n;
 	do {
-		std::cout << "Nhap vao so nguyen n (n > 1): ";
-		std::cin >> n;
+		cout << "Nhap vao so nguyen n (n > 1): ";
+		cin >> n;
 	} while (n <= 1);
 
 
@@ -117,8 +117,45 @@ bool find(int x, int y) {
 	return x == y ? x : false;
 }
 
-void nhapMang2(int**& arr, int& r, int& c) {
 
+//hàm in tam giác pascal với chiều dài h
+void tamgiacPascal(int h) {
+	//khởi tạo mảng 2 chiều để lưu trữ tam giác Pascal
+	int** arr = new int* [h];
+	for (int i = 0; i < h; i++) {
+		arr[i] = new int[i + 1];
+	}
+
+	//Tính và lưu trữ giá trị của tam giác
+	for (int i = 0; i < h; i++) {
+		for (int j = 0; j <= i; j++) {
+			if (j == 0 || j == i) {
+				arr[i][j] = 1;
+			}
+			else
+			{
+				arr[i][j] = arr[i - 1][j - 1] + arr[i - 1][j];
+			}
+		}
+	}
+
+	//In tam giác
+	for (int i = 0; i < h; i++) {
+		for (int j = 0; j <= i; j++) {
+			cout << arr[i][j] << "";
+		}
+		cout << endl;
+	}
+	
+
+	//Giải phóng bộ nhớ
+	for (int i = 0; i < h; i++) {
+		delete[] arr[i];
+	}
+	delete[]arr;
+}
+
+void nhapMang2(int** &arr, int& r, int &c) {
 	do {
 		cout << "Nhap gia tri hang: ";
 		cin >> r;
@@ -128,6 +165,7 @@ void nhapMang2(int**& arr, int& r, int& c) {
 			cout << "Nhap lai!!";
 		}
 	} while (r > 4 || c > 4);
+
 	arr = new int* [r];
 	for (int i = 0; i < r; i++) {
 		arr[i] = new int[c];
@@ -135,20 +173,40 @@ void nhapMang2(int**& arr, int& r, int& c) {
 
 	for (int i = 0; i < r; i++) {
 		for (int j = 0; j < c; j++) {
-			cout << "Nhap gia tri cua mang 2 chieu arr[" << r << "][" << c << "]: ";
-			cin >> arr[i][j];
+			cout <<"Nhap gia tri cua mang [" << i << "][" << j << "]: "; cin >> arr[i][j];
 		}
 	}
 }
-
 
 void xuatMang2(int** arr, int r, int c) {
 	for (int i = 0; i < r; i++) {
 		for (int j = 0; j < c; j++) {
 			cout << arr[i][j] << " ";
 		}
+		cout << endl;
 	}
-	cout << endl;
 }
 
+//Kiếm tra số nguyên tố
+bool KTSNT(int x)
+{
+	if (x < 2)
+		return false;
+	for (int i = 2; i <= x / 2; i++)
+		if (x % i == 0)
+			return false;
+	return true;
+}
 
+void calcTotal(int **arr, int r, int c){
+	int sum = 0;
+	for (int i = 0; i < r; i++) {
+		for (int j = 0; j < c; j++) {
+			if (KTSNT(arr[i][j])) {
+				sum += arr[i][j];
+				cout << "Cac so nguyen to trong mang 2 chieu la: " << arr[i][j] << endl;
+			}
+		}
+	}
+	cout << "Tong so nguyen to trong mang 2 chieu la: " << sum << endl;;
+}

@@ -24,6 +24,15 @@
     <ClCompile Include="Contro.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="MãĐiTuần.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="8quanhau.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HoanVi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Contro.h">

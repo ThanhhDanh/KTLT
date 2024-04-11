@@ -1,3 +1,3 @@
 ﻿  Contro.cpp
-C:\Users\admin\Desktop\KTLT\070324\070324\Contro.cpp(17,6): warning C4101: 'array': unreferenced local variable
+C:\Users\admin\Desktop\KTLT\070324\070324\Contro.cpp(159,18): warning C4101: 'x': unreferenced local variable
   070324.vcxproj -> C:\Users\admin\Desktop\KTLT\070324\Debug\070324.exe

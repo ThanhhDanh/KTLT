@@ -29,7 +29,7 @@ bool isMax(int x) {
 //		cout << endl;
 //}
 
-int main2(){
+int main(){
 	/*int array[3][4];
 	for (int i = 0; i < 3; i++) {
 		for (int j = 0; j < 4; j++) {
@@ -192,7 +192,7 @@ int main2(){
 				cout << "\nGia tri " << x <<" xuat hien " << count << " lan trong ma tran\n";
 			}
 			else {
-				cout << "Gia tri " << x << " khong xuat hiện trong ma tran\n";
+				cout << "Gia tri " << x <<" khong xuat hiện trong ma tran\n";
 			}
 
 			break;
