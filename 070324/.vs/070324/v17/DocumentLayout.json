@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\KTLT\\070324\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E3D77509-FB52-44D4-9C70-49BD0E1C885E}|070324\\070324.vcxproj|D:\\KTLT\\070324\\070324\\cau4CK.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E3D77509-FB52-44D4-9C70-49BD0E1C885E}|070324\\070324.vcxproj|solutionrelative:070324\\cau4CK.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3D77509-FB52-44D4-9C70-49BD0E1C885E}|070324\\070324.vcxproj|D:\\KTLT\\070324\\070324\\cau6CK.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E3D77509-FB52-44D4-9C70-49BD0E1C885E}|070324\\070324.vcxproj|solutionrelative:070324\\cau6CK.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3D77509-FB52-44D4-9C70-49BD0E1C885E}|070324\\070324.vcxproj|D:\\KTLT\\070324\\070324\\cau3CK.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E3D77509-FB52-44D4-9C70-49BD0E1C885E}|070324\\070324.vcxproj|solutionrelative:070324\\cau3CK.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3D77509-FB52-44D4-9C70-49BD0E1C885E}|070324\\070324.vcxproj|D:\\KTLT\\070324\\070324\\cau2CK.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E3D77509-FB52-44D4-9C70-49BD0E1C885E}|070324\\070324.vcxproj|solutionrelative:070324\\cau2CK.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3D77509-FB52-44D4-9C70-49BD0E1C885E}|070324\\070324.vcxproj|D:\\KTLT\\070324\\070324\\cau1CK.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E3D77509-FB52-44D4-9C70-49BD0E1C885E}|070324\\070324.vcxproj|solutionrelative:070324\\cau1CK.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3D77509-FB52-44D4-9C70-49BD0E1C885E}|070324\\070324.vcxproj|D:\\KTLT\\070324\\070324\\data_sv_2.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{E3D77509-FB52-44D4-9C70-49BD0E1C885E}|070324\\070324.vcxproj|solutionrelative:070324\\data_sv_2.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "cau2CK.cpp",
+              "DocumentMoniker": "D:\\KTLT\\070324\\070324\\cau2CK.cpp",
+              "RelativeDocumentMoniker": "070324\\cau2CK.cpp",
+              "ToolTip": "D:\\KTLT\\070324\\070324\\cau2CK.cpp",
+              "RelativeToolTip": "070324\\cau2CK.cpp",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-29T16:12:15.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "cau1CK.cpp",
+              "DocumentMoniker": "D:\\KTLT\\070324\\070324\\cau1CK.cpp",
+              "RelativeDocumentMoniker": "070324\\cau1CK.cpp",
+              "ToolTip": "D:\\KTLT\\070324\\070324\\cau1CK.cpp",
+              "RelativeToolTip": "070324\\cau1CK.cpp",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAADQAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-29T16:10:41.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "cau3CK.cpp",
+              "DocumentMoniker": "D:\\KTLT\\070324\\070324\\cau3CK.cpp",
+              "RelativeDocumentMoniker": "070324\\cau3CK.cpp",
+              "ToolTip": "D:\\KTLT\\070324\\070324\\cau3CK.cpp",
+              "RelativeToolTip": "070324\\cau3CK.cpp",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-29T14:23:45.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "cau6CK.cpp",
+              "DocumentMoniker": "D:\\KTLT\\070324\\070324\\cau6CK.cpp",
+              "RelativeDocumentMoniker": "070324\\cau6CK.cpp",
+              "ToolTip": "D:\\KTLT\\070324\\070324\\cau6CK.cpp",
+              "RelativeToolTip": "070324\\cau6CK.cpp",
+              "ViewState": "AQIAAJ8AAAAAAAAAAAAAAK8AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-29T13:55:56.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "data_sv_2.txt",
+              "DocumentMoniker": "D:\\KTLT\\070324\\070324\\data_sv_2.txt",
+              "RelativeDocumentMoniker": "070324\\data_sv_2.txt",
+              "ToolTip": "D:\\KTLT\\070324\\070324\\data_sv_2.txt",
+              "RelativeToolTip": "070324\\data_sv_2.txt",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-05-29T12:41:07.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "cau4CK.cpp",
+              "DocumentMoniker": "D:\\KTLT\\070324\\070324\\cau4CK.cpp",
+              "RelativeDocumentMoniker": "070324\\cau4CK.cpp",
+              "ToolTip": "D:\\KTLT\\070324\\070324\\cau4CK.cpp",
+              "RelativeToolTip": "070324\\cau4CK.cpp",
+              "ViewState": "AQIAAJQAAAAAAAAAAAAAAKgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-29T10:30:23.091Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

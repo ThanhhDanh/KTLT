@@ -36,6 +36,21 @@
     <ClCompile Include="StructLass.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="cau1CK.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cau2CK.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cau3CK.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cau4CK.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cau6CK.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Contro.h">
@@ -44,6 +59,12 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="data_sv_2.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Array1.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Array2.txt">
       <Filter>Resource Files</Filter>
     </Text>
   </ItemGroup>

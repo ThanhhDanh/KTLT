@@ -1,4 +1,2 @@
-﻿  StructLass.cpp
-C:\Users\admin\Desktop\KTLT\070324\070324\StructLass.cpp(4,1): error C2008: ';': unexpected in macro definition
-C:\Users\admin\Desktop\KTLT\070324\070324\StructLass.cpp(129,8): warning C4553: '==': result of expression not used; did you intend '='?
-C:\Users\admin\Desktop\KTLT\070324\070324\StructLass.cpp(165,2): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+﻿  cau6CK.cpp
+D:\KTLT\070324\070324\cau6CK.cpp(176,8): error C2600: 'DSSV::~DSSV': cannot define a compiler-generated special member function (must be declared in the class first)
